@@ -1,0 +1,93 @@
+body {
+    color: purple;
+    background-color: white;
+}
+
+.form-box {
+    width: 600px;
+    /* padding: 10px; */
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 5px rgb(131, 127, 127);
+}
+.form-box h2{
+    text-align: center;
+    margin-top: 40px;
+    color: purple;
+   
+}
+.border-dotted{
+    border: dotted 10px purple;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 70px;
+}
+form{
+    text-align: center;
+}
+
+[type="number"]{
+    color: purple;
+    font-weight: 600;
+}
+.form-input{
+    padding-top: 20px;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    height: 30px;
+    font-size: 1rem;
+    width: 350px;
+}
+form h3{    
+    margin: 30px auto;
+    font-weight: 600;    
+    visibility: hidden;
+}
+.hr-under{   
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-top: -22px;
+    width: 350px;
+}
+.convertBtn{
+    background-color:purple;
+    border: none;
+    margin: 50px 0;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 1s;
+}
+
+@media (max-width:667px) {
+    .form-box {
+        width: 350px;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        height: 500px;
+    }
+    .form-input{
+       margin-top: 70px;
+        width: 300px;
+    }
+    form h3{
+        width: 300px;       
+    
+    }
+    .hr-under{   
+        width: 300px;
+    }
+    .convertBtn{
+        margin-top: 50px;
+    }
+}
